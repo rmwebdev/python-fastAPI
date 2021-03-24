@@ -43,4 +43,4 @@ class BlogModel(BaseModel):
 
 @app.post('/blog/')
 def createBlog(blog: BlogModel):
-    return {'data': {blog:set}}
+    return {'data': "oks"}
